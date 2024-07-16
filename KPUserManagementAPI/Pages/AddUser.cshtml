@@ -1,0 +1,25 @@
+﻿@page
+@model KPUserManagementAPI.Pages.AddUserModel
+@{
+    ViewData["Title"] = "Add User";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div>
+        <label>Username</label>
+        <input type="text" asp-for="User.UserName" />
+    </div>
+    <div>
+        <label>First Name</label>
+        <input type="text" asp-for="User.FirstName" />
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input type="text" asp-for="User.LastName" />
+    </div>
+    <div>
+        <input type="submit" value="Add User" />
+    </div>
+</form>

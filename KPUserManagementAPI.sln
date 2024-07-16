@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KPUserManagementAPI", "KPUserManagementAPI\KPUserManagementAPI.csproj", "{19B161B0-C6B0-43AA-93F3-2EACF36F1311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPUserManagementAPI.Tests", "KPUserManagementAPI.Tests\KPUserManagementAPI.Tests.csproj", "{52AD20AC-9005-4E23-8571-E70D4CA111EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B161B0-C6B0-43AA-93F3-2EACF36F1311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B161B0-C6B0-43AA-93F3-2EACF36F1311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B161B0-C6B0-43AA-93F3-2EACF36F1311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B161B0-C6B0-43AA-93F3-2EACF36F1311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AD20AC-9005-4E23-8571-E70D4CA111EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AD20AC-9005-4E23-8571-E70D4CA111EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AD20AC-9005-4E23-8571-E70D4CA111EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AD20AC-9005-4E23-8571-E70D4CA111EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B220C6F-FCFD-4629-B7D9-633595D4D0A1}
+	EndGlobalSection
+EndGlobal
