@@ -33,7 +33,7 @@ namespace KPUserManagementAPI.Tests
 
                 // Assert
                 var okResult = Assert.IsType<OkObjectResult>(result);
-                // Perform further assertions on the returned data
+               
             }
         }
 
@@ -59,7 +59,6 @@ namespace KPUserManagementAPI.Tests
             }
         }
 
-        // Additional tests for other business logic methods
     }
 
 }
